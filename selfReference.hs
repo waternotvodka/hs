@@ -10,4 +10,4 @@ powersOfTwo :: [Int]
 powersOfTwo = 1:map (*2) powersOfTwo
 
 naturalNumbers :: [Int]
-naturalNumbers = 1 : map inc naturalNumbers
+naturalNumbers = 1 : map succ naturalNumbers
